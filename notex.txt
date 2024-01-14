@@ -1,0 +1,26 @@
+http status code :
+    >> https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+HTTP Methods :
+    >> GET: Retrieve a specified resource.  [ONLY METHOD THAT WORKS ON OUR LOCAL SERVER] YOUR BROWSER ONLY WORKS ON GET METHOD
+
+    >> POST: sends data to the server. (eg.signin)  [ONLY WORKS ON ADVANCE SERVER]
+
+    >> DELETE: deleting data from server (logout, signout)  [ONLY WORKS ON ADVANCE SERVER]
+
+    >> PATCH: updating certain fields (eg.mob num)  [ONLY WORKS ON ADVANCE SERVER]
+
+    >> PUT: PUT is idempotent: calling it once or several times successively has the same effect (that is no side effect).  [ONLY WORKS ON ADVANCE SERVER]
+            full updates which are huge.
+
+    >> HEAD: Similar to GET, but is not intended to return the actual body of the response  [ONLY WORKS ON ADVANCE SERVER]
+
+    thunder client 
+    - install it and use it for testing APIs. NEW REQUEST >>> Just enter url and select method post,get,patch...
+    Postman is another tool that can be used for API Testing. But thunder client is better.
+
+    u can download POSTMAN directly from google....
+    You can pass different set of information in the body section of THUNER CLIENT in JSON, TEXT, XML, FORM,  BINARY, FORM-ENCODE, GRAPHQL format...
+    U have to pass parameter (eg name) and value (egsampada) for  POST METHOD...
+
+    //PUSH : appending something at the end of that particular thing.

@@ -1,0 +1,23 @@
+{
+  "name": "server.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sampada-Payal/to-do-server.git"
+  },
+  "author": "sampada-payal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sampada-Payal/to-do-server/issues"
+  },
+  "homepage": "https://github.com/Sampada-Payal/to-do-server#readme",
+  "dependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
